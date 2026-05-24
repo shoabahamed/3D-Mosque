@@ -104,12 +104,10 @@ All texture images and the full demo video are too large for Git. They are hoste
 
 | Key | Action |
 |---|---|
-| `TAB` | Cycle viewport (Isometric → Top → Front → Inside) |
 | `W` / `S` | Move forward / backward |
 | `A` / `D` | Move left / right |
 | `E` / `R` | Move up / down |
 | `Mouse` | Look around |
-| `Scroll` | Zoom in / out |
 | `X` / `Y` / `Z` | Rotate pitch / yaw / roll (+`Shift` to reverse) |
 | `F` | Toggle orbit mode |
 | `G` | Toggle shading (Phong ↔ Gouraud) |
@@ -151,7 +149,6 @@ All texture images and the full demo video are too large for Git. They are hoste
 ├── shader.vs / shader.fs     # Basic passthrough shader
 │
 ├── stb_image.h / .cpp        # Single-header image loader
-├── report.tex                # LaTeX source for the project report
 │
 ├── *.jpg, *.png              # Texture assets (gitignored — see Google Drive)
 ├── Documents/                # Report PDF, slides, presentation, demo video
@@ -205,11 +202,9 @@ Faucet droplets use a simple Euler integration physics model:
 ## 📚 References
 
 - [LearnOpenGL](https://learnopengl.com) — Joey de Vries
-- *OpenGL SuperBible*, 7th Edition — G. Sellers, R. Wright, N. Haemel
 - [GLFW Documentation](https://www.glfw.org/docs/latest/)
 - [GLM (OpenGL Mathematics)](https://github.com/g-truc/glm)
 - [stb_image](https://github.com/nothings/stb) — Sean Barrett
-- *Real-Time Rendering* — A. K. Peters (foundational concepts)
 
 ---
 
