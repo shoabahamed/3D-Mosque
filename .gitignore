@@ -1,0 +1,60 @@
+# ============================================================
+#  3D Mosque – .gitignore
+#  Excludes Visual Studio artifacts, build outputs, large
+#  binary assets (textures/images), and large documents.
+# ============================================================
+
+# ---- Visual Studio / VS Code ----
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.ncb
+*.sdf
+*.opensdf
+*.aps
+*.cachefile
+*.VC.db
+*.VC.db-shm
+*.VC.db-wal
+*.VC.opendb
+ipch/
+*.ipch
+
+# ---- Build outputs ----
+build/
+x64/
+Debug/
+Release/
+CoordinateSystem/x64/
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.log
+*.idb
+*.tlog
+
+# ---- Texture / Image assets (too large for Git) ----
+# Upload these to Google Drive and reference them in the README.
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tga
+*.gif
+*.tiff
+
+# ---- Exception: track README snapshot images ----
+!Documents/snapshots/*.png
+!Documents/snapshots/*.jpg
+
+# ---- Large documents ----
+# The video is ~280 MB; upload to Google Drive / YouTube instead.
+Documents/2007015_Video_3D_Mosque.mp4
